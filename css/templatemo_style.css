@@ -64,21 +64,21 @@ textarea,
 /*
  * @license
  * MyFonts Webfont Build ID 2774417, 2014-03-20T16:40:56-0400
- * 
+ *
  * The fonts listed in this notice are subject to the End User License
- * Agreement(s) entered into by the website owner. All other parties are 
+ * Agreement(s) entered into by the website owner. All other parties are
  * explicitly restricted from using the Licensed Webfonts(s).
- * 
+ *
  * You may obtain a valid license at the URLs below.
- * 
+ *
  * Webfont: Novecento Sans Wide Bold by Synthview
  * URL: http://www.myfonts.com/fonts/synthview/novecento/wide-bold/
  * Copyright: Copyright &#x00A9; 2013 by Jan Tonellato. All rights reserved.
  * Licensed pageviews: Unlimited
- * 
- * 
+ *
+ *
  * License: http://www.myfonts.com/viewlicense?type=web&buildid=2774417
- * 
+ *
  * 2014 MyFonts Inc
 */
 @font-face {
@@ -139,6 +139,12 @@ h2 {
   font-size: 24px;
   line-height: 40px;
   font-weight: normal;
+}
+h2.section-icon.left {
+  font-size: 15px;
+  text-align: center;
+  padding-right: 34px;
+  letter-spacing: 5px;
 }
 
 h3 {
@@ -416,6 +422,9 @@ label {
 .main-navigation {
   width: 100%;
   text-align: right;
+  padding-top: 4px;
+  font-size: 95px;
+  padding-bottom: 0px;
 }
 .main-navigation li {
   display: inline-block;
@@ -423,7 +432,7 @@ label {
 }
 .main-navigation li a {
   display: block;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 40px;
   color: #555555;
 }
@@ -460,7 +469,7 @@ label {
   color: white;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.6);
+  /*background-color: rgba(0, 0, 0, 0.6);*/
   padding: 100px 0 90px 0;
 }
 .section-overlay h2 {
@@ -471,7 +480,7 @@ label {
 .content-section {
   position: relative;
   z-index: 10;
-  padding: 100px 0 90px 0;
+  padding: 0 0 90px 0;
 }
 .content-section h3 {
   text-transform: uppercase;
@@ -485,12 +494,23 @@ label {
 .section-title {
   text-transform: uppercase;
   padding-bottom: 20px;
-  border-bottom: 1px solid #dbdbdb;
-  margin: 0 0 90px 0;
+  /*  border-bottom: 1px solid #dbdbdb;*/
+  margin: 0 0 0 0;
   width: 100%;
 }
+.img-icon2 {
+  text-align: center;
+  margin-bottom: 90px;
+  /*border-bottom: 1px solid #dbdbdb;*/
+}
+h2.section-cn.left {
+  text-align: center;
+  font-family: 微软雅黑;
+  font-size: 15px;
+}
+
 .section-title.left {
-  text-align: left;
+  text-align: center;
 }
 .section-title.right {
   text-align: right;
@@ -503,6 +523,10 @@ label {
   background: #5c5c5c;
   padding: 0;
   margin-top: 112px;
+}
+.img-icon1 {
+  text-align: center;
+  padding-bottom: 0px;
 }
 
 .slide-caption {
@@ -527,6 +551,9 @@ label {
 .slide-caption .slide-button {
   margin: 30px 0 0 0;
 }
+a#now {
+  color: #e04d47;
+}
 
 .slide-navigation {
   position: absolute;
@@ -535,6 +562,9 @@ label {
   bottom: 15%;
   right: 8%;
   z-index: 200;
+}
+.col-md-4.animated-item.feature-item.fadeInUp.animated {
+  margin: 0 0 82px 0;
 }
 .slide-navigation .slide-prev i,
 .slide-navigation .slide-next i {
