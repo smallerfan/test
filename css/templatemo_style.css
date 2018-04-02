@@ -665,6 +665,31 @@ a#now {
   background: url('../images/large_bg_image.jpg?1395266600') 50% 0 repeat-y fixed;
 }
 
+.VivaTimeline-front {
+  background: url('../images/slides/timeback.png') 50% 0 repeat-y fixed;
+}
+
+p.section-title.left1 {
+  text-align: center;
+  margin: 15px 0 0 0;
+  font-size: 16px;
+  color: white;
+}
+
+p.section-cn.left1 {
+  color: white;
+  text-align: center;
+  margin: 15px 0 0 0;
+  letter-spacing: 4px;
+}
+
+.dev-top {
+  padding: 47px 0 0 0;
+}
+
+.dev-end {
+  padding: 87px 0 0 0;
+}
 .counter-item {
   text-align: center;
 }
