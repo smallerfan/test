@@ -509,12 +509,12 @@ label {
 
 .foot-link {
   position: absolute;
-  top: 2%;
+  top: 5.5%;
   right: 35%;
 }
 .foot-link2 {
   position: absolute;
-  top: 2%;
+  top: 5.5%;
   right: 25%;
 }
 .foot-content1 {
@@ -531,7 +531,8 @@ p.icon-contant {
   margin: 10px 0 0 20px;
 }
 p.icon-contant1 {
-  margin: 77px 0 0 0;
+  margin: 42px 0 0 0;
+  font-size: 18px;
 }
 
 span.icon-name {
