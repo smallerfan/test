@@ -36,7 +36,7 @@ textarea,
   display: block;
   width: 100%;
   height: 100%;
-  background: rgba(224, 77, 71, 0.6);
+  background: url('../images/touming.png');
   text-align: center;
   padding: 20px;
   top: 0;
@@ -133,6 +133,21 @@ hr {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Novecentosanswide-Bold", sans-serif;
   color: #222222;
+}
+.foot-contantus {
+  background: #090909;
+}
+h3.foot-title {
+  text-align: left;
+  color: #eeeeee;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+p.foot-title {
+  color: #eeeeee;
+  text-align: center;
+  font-size: 25px;
+  text-transform: uppercase;
 }
 
 h2 {
@@ -480,11 +495,47 @@ label {
 .content-section {
   position: relative;
   z-index: 10;
-  padding: 0 0 90px 0;
+  padding: 10px 0 90px 0;
 }
 .content-section h3 {
   text-transform: uppercase;
-  margin: 0 0 10px 0;
+  margin: 55px 0 10px 0;
+}
+.foot-block {
+  color: #eeeeee;
+  letter-spacing: 2px;
+  margin: 84px 0 100px;
+}
+
+.foot-link {
+  position: absolute;
+  top: 2%;
+  right: 35%;
+}
+.foot-link2 {
+  position: absolute;
+  top: 2%;
+  right: 25%;
+}
+.foot-content1 {
+  position: absolute;
+  top: 12%;
+  left: 63%;
+}
+
+.foot-content2 {
+  color: #eeeeee;
+  letter-spacing: 2px;
+}
+p.icon-contant {
+  margin: 10px 0 0 20px;
+}
+p.icon-contant1 {
+  margin: 77px 0 0 0;
+}
+
+span.icon-name {
+  margin: 0 10px;
 }
 
 .content-overlay {
@@ -501,6 +552,11 @@ label {
 .img-icon2 {
   text-align: center;
   margin-bottom: 90px;
+  /*border-bottom: 1px solid #dbdbdb;*/
+}
+.img-icon3 {
+  text-align: center;
+  margin-bottom: 10px;
   /*border-bottom: 1px solid #dbdbdb;*/
 }
 h2.section-cn.left {
@@ -526,7 +582,7 @@ h2.section-cn.left {
 }
 .img-icon1 {
   text-align: center;
-  padding-bottom: 0px;
+  margin: 47px 0 0 0;
 }
 
 .slide-caption {
@@ -675,12 +731,41 @@ p.section-title.left1 {
   font-size: 16px;
   color: white;
 }
+p.section-title.left2 {
+  text-align: center;
+  margin: 15px 0 0 0;
+  font-size: 16px;
+  color: #090909;
+}
 
 p.section-cn.left1 {
   color: white;
   text-align: center;
   margin: 15px 0 0 0;
   letter-spacing: 4px;
+}
+p.section-cn.left2 {
+  color: #090909;
+  text-align: center;
+  margin: 15px 0 0 0;
+  letter-spacing: 4px;
+
+}
+
+p.about-contain {
+  text-align: center;
+  letter-spacing: 2px;
+  margin: 30px;
+}
+a.about-title1 {
+  color: #ea1b23;
+}
+a.about-title {
+  color: black;
+}
+.about-title {
+  text-align: center;
+  font-size: 22px;
 }
 
 .dev-top {
@@ -722,7 +807,7 @@ p.section-cn.left1 {
 
 /* PARTNERS SECTION */
 #partners {
-  background: url('../images/large_bg_image.jpg?1395266600') 50% 0 repeat-y fixed;
+  /*background: url('../images/large_bg_image.jpg?1395266600') 50% 0 repeat-y fixed;*/
 }
 
 .partner-logo {
