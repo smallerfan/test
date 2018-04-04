@@ -449,6 +449,12 @@ label {
   display: block;
   font-size: 16px;
   line-height: 40px;
+  /*color: #555555;*/
+}
+a.shouye {
+  color: #e04d47;
+}
+a.daohang {
   color: #555555;
 }
 .main-navigation li a:hover {
@@ -2165,3 +2171,12 @@ img.mfp-img {
   }
 
 }
+
+
+img.about-image {
+  display: block;
+  height: 100%;
+  width: 100%;
+  padding: 27px;
+}
+
